@@ -1,6 +1,6 @@
 #define YY_XMLParser_h_included
 
-/*  A Bison++ parser, made from src/xml/xml.yacc  */
+/*  A Bison++ parser, made from xml.yacc  */
 
  /* with Bison++ version bison++ Version 1.21-8, adapted from GNU bison by coetmeur@icdc.fr
   */
@@ -81,8 +81,8 @@ void *alloca ();
 #define YYBISON 1  
 
 /* #line 73 "/usr/local/lib/bison.cc" */
-#line 85 "src/xml/XMLParser.cpp"
-#line 15 "src/xml/xml.yacc"
+#line 85 "XMLParser.cpp"
+#line 15 "xml.yacc"
 
   #include <stdio.h>
   #include <string> 
@@ -97,7 +97,7 @@ void *alloca ();
   #include "commentnode.h"
     
 
-#line 35 "src/xml/xml.yacc"
+#line 35 "xml.yacc"
 typedef union {
     string*   str;
   } yy_XMLParser_stype;
@@ -188,7 +188,7 @@ typedef union {
 #ifndef YY_XMLParser_PURE
 
 /* #line 117 "/usr/local/lib/bison.cc" */
-#line 192 "src/xml/XMLParser.cpp"
+#line 192 "XMLParser.cpp"
 
 #line 117 "/usr/local/lib/bison.cc"
 /*  YY_XMLParser_PURE */
@@ -197,14 +197,14 @@ typedef union {
 /* section apres lecture def, avant lecture grammaire S2 */
 
 /* #line 121 "/usr/local/lib/bison.cc" */
-#line 201 "src/xml/XMLParser.cpp"
+#line 201 "XMLParser.cpp"
 
 #line 121 "/usr/local/lib/bison.cc"
 /* prefix */
 #ifndef YY_XMLParser_DEBUG
 
 /* #line 123 "/usr/local/lib/bison.cc" */
-#line 208 "src/xml/XMLParser.cpp"
+#line 208 "XMLParser.cpp"
 
 #line 123 "/usr/local/lib/bison.cc"
 /* YY_XMLParser_DEBUG */
@@ -214,7 +214,7 @@ typedef union {
 #ifndef YY_XMLParser_LSP_NEEDED
 
 /* #line 128 "/usr/local/lib/bison.cc" */
-#line 218 "src/xml/XMLParser.cpp"
+#line 218 "XMLParser.cpp"
 
 #line 128 "/usr/local/lib/bison.cc"
  /* YY_XMLParser_LSP_NEEDED*/
@@ -327,7 +327,7 @@ typedef
 /* TOKEN C */
 
 /* #line 236 "/usr/local/lib/bison.cc" */
-#line 331 "src/xml/XMLParser.cpp"
+#line 331 "XMLParser.cpp"
 #define	PROLOG_START	258
 #define	VERSION	259
 #define	EQ	260
@@ -398,7 +398,7 @@ public:
 /* static const int token ... */
 
 /* #line 280 "/usr/local/lib/bison.cc" */
-#line 402 "src/xml/XMLParser.cpp"
+#line 402 "XMLParser.cpp"
 static const int PROLOG_START;
 static const int VERSION;
 static const int EQ;
@@ -428,7 +428,7 @@ static const int WHITESPACE;
 enum YY_XMLParser_ENUM_TOKEN { YY_XMLParser_NULL_TOKEN=0
 
 /* #line 283 "/usr/local/lib/bison.cc" */
-#line 432 "src/xml/XMLParser.cpp"
+#line 432 "XMLParser.cpp"
 	,PROLOG_START=258
 	,VERSION=259
 	,EQ=260
@@ -486,7 +486,7 @@ public:
 #if YY_XMLParser_USE_CONST_TOKEN != 0
 
 /* #line 314 "/usr/local/lib/bison.cc" */
-#line 490 "src/xml/XMLParser.cpp"
+#line 490 "XMLParser.cpp"
 const int YY_XMLParser_CLASS::PROLOG_START=258;
 const int YY_XMLParser_CLASS::VERSION=259;
 const int YY_XMLParser_CLASS::EQ=260;
@@ -524,7 +524,7 @@ YY_XMLParser_CONSTRUCTOR_CODE;
 #endif
 
 /* #line 325 "/usr/local/lib/bison.cc" */
-#line 528 "src/xml/XMLParser.cpp"
+#line 528 "XMLParser.cpp"
 
 
 #define	YYFINAL		49
@@ -1147,43 +1147,43 @@ YYLABEL(yyreduce)
 
 
 /* #line 811 "/usr/local/lib/bison.cc" */
-#line 1151 "src/xml/XMLParser.cpp"
+#line 1151 "XMLParser.cpp"
 
   switch (yyn) {
 
 case 1:
-#line 141 "src/xml/xml.yacc"
+#line 141 "xml.yacc"
 {;
     break;}
 case 2:
-#line 142 "src/xml/xml.yacc"
+#line 142 "xml.yacc"
 {;
     break;}
 case 3:
-#line 143 "src/xml/xml.yacc"
+#line 143 "xml.yacc"
 {;
     break;}
 case 4:
-#line 144 "src/xml/xml.yacc"
+#line 144 "xml.yacc"
 {;
     break;}
 case 5:
-#line 150 "src/xml/xml.yacc"
+#line 150 "xml.yacc"
 {;
     break;}
 case 6:
-#line 151 "src/xml/xml.yacc"
+#line 151 "xml.yacc"
 {;
     break;}
 case 7:
-#line 154 "src/xml/xml.yacc"
+#line 154 "xml.yacc"
 {
                                             checkVersion(*yyvsp[-1].str);
                                             delete yyvsp[-1].str; //NR is string*
                                           ;
     break;}
 case 8:
-#line 159 "src/xml/xml.yacc"
+#line 159 "xml.yacc"
 {
                                                   checkVersion(*yyvsp[-2].str);
                                                   //warning("Unused prolog data:"+*$5);
@@ -1192,54 +1192,54 @@ case 8:
                                                 ;
     break;}
 case 9:
-#line 165 "src/xml/xml.yacc"
+#line 165 "xml.yacc"
 {;
     break;}
 case 10:
-#line 170 "src/xml/xml.yacc"
+#line 170 "xml.yacc"
 {;
     break;}
 case 11:
-#line 171 "src/xml/xml.yacc"
+#line 171 "xml.yacc"
 {;
     break;}
 case 12:
-#line 175 "src/xml/xml.yacc"
+#line 175 "xml.yacc"
 {
                                 openTag();
                               ;
     break;}
 case 13:
-#line 178 "src/xml/xml.yacc"
+#line 178 "xml.yacc"
 {;
     break;}
 case 14:
-#line 179 "src/xml/xml.yacc"
+#line 179 "xml.yacc"
 {
                                 closeTag(*yyvsp[-1].str);
                                 delete(yyvsp[-1].str);
                               ;
     break;}
 case 15:
-#line 183 "src/xml/xml.yacc"
+#line 183 "xml.yacc"
 {
                                 newTextNode(*yyvsp[0].str);
                                 delete yyvsp[0].str;
                               ;
     break;}
 case 16:
-#line 187 "src/xml/xml.yacc"
+#line 187 "xml.yacc"
 {;
     break;}
 case 17:
-#line 188 "src/xml/xml.yacc"
+#line 188 "xml.yacc"
 {
                                 if(bIncludeWhites) newWhiteTextNode(*yyvsp[0].str);
                                 delete yyvsp[0].str;
                               ;
     break;}
 case 18:
-#line 196 "src/xml/xml.yacc"
+#line 196 "xml.yacc"
 {
                                     tagName=string(*yyvsp[-1].str);
                                     delete yyvsp[-1].str;
@@ -1247,19 +1247,19 @@ case 18:
                                   ;
     break;}
 case 19:
-#line 205 "src/xml/xml.yacc"
+#line 205 "xml.yacc"
 {
                                 bSingleTag=false;
                               ;
     break;}
 case 20:
-#line 208 "src/xml/xml.yacc"
+#line 208 "xml.yacc"
 {
                                 bSingleTag=true;
                               ;
     break;}
 case 21:
-#line 211 "src/xml/xml.yacc"
+#line 211 "xml.yacc"
 {
                                 Attribute a(*yyvsp[-1].str);
                                 attributes.push_back(a);
@@ -1267,7 +1267,7 @@ case 21:
                               ;
     break;}
 case 22:
-#line 220 "src/xml/xml.yacc"
+#line 220 "xml.yacc"
 {
                                                           PINode* pNode=new PINode(*yyvsp[-2].str,*yyvsp[-1].str);
                                                           if(treePos==0){
@@ -1281,14 +1281,14 @@ case 22:
                                                         ;
     break;}
 case 23:
-#line 234 "src/xml/xml.yacc"
+#line 234 "xml.yacc"
 {
                         yyval.str=new string(*yyvsp[0].str);
                         delete yyvsp[0].str;
                      ;
     break;}
 case 24:
-#line 238 "src/xml/xml.yacc"
+#line 238 "xml.yacc"
 {
                                     yyval.str=new string(*yyvsp[-1].str+*yyvsp[0].str);
                                     delete yyvsp[-1].str;
@@ -1296,7 +1296,7 @@ case 24:
                                    ;
     break;}
 case 25:
-#line 246 "src/xml/xml.yacc"
+#line 246 "xml.yacc"
 {
                                               CommentNode* cNode=new CommentNode(*yyvsp[-1].str);
                                               if(treePos==0){
@@ -1309,14 +1309,14 @@ case 25:
                                             ;
     break;}
 case 26:
-#line 259 "src/xml/xml.yacc"
+#line 259 "xml.yacc"
 {
                                     yyval.str=new string(*yyvsp[0].str);
                                     delete yyvsp[0].str;
                                   ;
     break;}
 case 27:
-#line 263 "src/xml/xml.yacc"
+#line 263 "xml.yacc"
 {
                                     yyval.str=new string(*yyvsp[-1].str+*yyvsp[0].str);
                                     delete yyvsp[-1].str;
@@ -1527,8 +1527,8 @@ YYLABEL(yyerrhandle)
 /* END */
 
 /* #line 1010 "/usr/local/lib/bison.cc" */
-#line 1531 "src/xml/XMLParser.cpp"
-#line 268 "src/xml/xml.yacc"
+#line 1531 "XMLParser.cpp"
+#line 268 "xml.yacc"
 
 
 

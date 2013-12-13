@@ -68,3 +68,9 @@ testing : functest.cpp with skip2.conf -> ok
 
 ```
 
+
+Ow yeah and you may need to tweak your flex and bison on your system. After that regenerate following files in src/xml dir:
+
+Walters-MacBook-Pro:xml wschrep$ flex++ -o XMLLexer.cpp xml.lex 
+Walters-MacBook-Pro:xml wschrep$ bison++ -o XMLParser.cpp xml.yacc
+

@@ -18,6 +18,7 @@ HEADERS      += include/xml/attribute.h \
                 include/xml/pinode.h \
                 include/xml/textnode.h \
                 include/xml/xmlnode.h \
+                include/xml/FlexLexer.h \
                 include/xml/XMLParseFunctions.h \
                 include/error.h \
                 include/ConfigElem.h \

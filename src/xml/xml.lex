@@ -326,3 +326,6 @@ VNUM ({V}|'-')+
 
 %%
 
+
+#undef yyFlexLexer
+
