@@ -1,0 +1,12 @@
+--- XMLLexer.cpp-fromflex	2007-06-01 16:52:08.000000000 +0200
++++ XMLLexer.cpp	2007-06-01 16:52:49.000000000 +0200
+@@ -22,7 +22,8 @@
+ #ifdef __cplusplus
+ 
+ #include <stdlib.h>
+-class istream;
++#include <iostream>
++using namespace std;
+ #include <unistd.h>
+ 
+ /* Use prototypes in function declarations. */
